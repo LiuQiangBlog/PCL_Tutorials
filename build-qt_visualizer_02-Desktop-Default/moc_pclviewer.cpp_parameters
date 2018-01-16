@@ -1,0 +1,10 @@
+-I/usr/local/include/vtk-7.1
+-I/usr/include
+-I/home/liuqiang/Documents/My_Repositories/PCL_Tutorials/qt_visualizer_02
+-I/home/liuqiang/Documents/My_Repositories/PCL_Tutorials/build-qt_visualizer_02-Desktop-Default
+-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)
+-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)
+-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)
+-o
+/home/liuqiang/Documents/My_Repositories/PCL_Tutorials/build-qt_visualizer_02-Desktop-Default/moc_pclviewer.cpp
+/home/liuqiang/Documents/My_Repositories/PCL_Tutorials/qt_visualizer_02/pclviewer.h
